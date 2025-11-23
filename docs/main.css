@@ -56,10 +56,13 @@ ul#background {
   }  
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   body {
     font-size: 12pt;
-    line-height: 15pt;
+  }
+
+  h1 {
+    font-size: 60px;
   }
 
   h2 {
@@ -67,16 +70,16 @@ ul#background {
   }
 }
 
-@media (max-width: 450px) {
-  body {
-    font-size: 10pt;
-    line-height: 13pt;
-  }
+/* @media (max-width: 450px) { */
+/*   body { */
+/*     font-size: 10pt; */
+/*     line-height: 13pt; */
+/*   } */
 
-  h2 {
-    margin-top: 20px;
-  }
-}
+/*   h2 { */
+/*     margin-top: 20px; */
+/*   } */
+/* } */
 
 .email {
   margin-top: 10px;
